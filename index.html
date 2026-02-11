@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bodyf | Wellness & Performance</title>
+    <meta
+      name="description"
+      content="Bodyf helps you build strength, confidence, and healthy routines through personalized wellness and fitness coaching."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="logo" href="#">Bodyf</a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#results">Results</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="btn btn-sm" href="#contact">Book a Free Call</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Bodyf Wellness Studio</p>
+            <h1>
+              Build a healthier body,
+              <span>one sustainable habit at a time.</span>
+            </h1>
+            <p class="hero-copy">
+              We combine fitness coaching, nutrition guidance, and mindset support
+              to help busy people transform their health without burnout.
+            </p>
+            <div class="hero-actions">
+              <a class="btn" href="#contact">Start Your Journey</a>
+              <a class="btn btn-outline" href="#services">Explore Services</a>
+            </div>
+            <ul class="stats" aria-label="Key statistics">
+              <li><strong>500+</strong><span>Clients coached</span></li>
+              <li><strong>93%</strong><span>Program completion</span></li>
+              <li><strong>4.9/5</strong><span>Client rating</span></li>
+            </ul>
+          </div>
+          <div class="hero-card" role="img" aria-label="Woman training in a bright fitness studio">
+            <div class="card-content">
+              <p>12-week Transformation Program</p>
+              <h2>Designed for real life schedules</h2>
+              <p>
+                1:1 coaching, meal planning and weekly accountability check-ins.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <p class="eyebrow">Our Services</p>
+          <h2>Everything you need to feel strong and energized</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Personal Training</h3>
+              <p>
+                Tailored strength and conditioning sessions built around your body,
+                goals, and fitness level.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Nutrition Coaching</h3>
+              <p>
+                Practical nutrition strategies and meal plans focused on consistency,
+                not restriction.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Lifestyle Accountability</h3>
+              <p>
+                Weekly check-ins, progress tracking, and mindset support so you keep
+                moving forward.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="about">
+        <div class="container two-col">
+          <div>
+            <p class="eyebrow">About Bodyf</p>
+            <h2>We help people feel confident in their own skin</h2>
+            <p>
+              Bodyf was created to make wellness accessible and realistic. Our
+              coaching approach is built on personalization, science-backed methods,
+              and compassionate support.
+            </p>
+            <p>
+              Whether your goal is fat loss, strength building, or simply improving
+              daily energy, we create a plan that fits your life.
+            </p>
+          </div>
+          <aside class="quote-box">
+            <p>
+              “Bodyf changed my routine and confidence. I’m stronger, sleep better,
+              and finally enjoy the process.”
+            </p>
+            <span>— Priya K., Client</span>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="results">
+        <div class="container">
+          <p class="eyebrow">Client Results</p>
+          <h2>Real progress from real people</h2>
+          <div class="results-grid">
+            <article>
+              <h3>+8kg Lean Muscle</h3>
+              <p>Over 6 months with strength and recovery programming.</p>
+            </article>
+            <article>
+              <h3>-12kg Fat Loss</h3>
+              <p>In 16 weeks while maintaining energy and performance.</p>
+            </article>
+            <article>
+              <h3>Improved Confidence</h3>
+              <p>
+                Better mobility, stronger habits, and a mindset focused on progress.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta" id="contact">
+        <div class="container cta-box">
+          <div>
+            <p class="eyebrow">Let’s work together</p>
+            <h2>Ready to build your strongest self?</h2>
+            <p>
+              Book a free 20-minute consultation and we’ll design a clear plan for
+              your goals.
+            </p>
+          </div>
+          <form class="contact-form" aria-label="Contact form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Goal
+              <textarea name="goal" rows="4" placeholder="Tell us about your goals"></textarea>
+            </label>
+            <button type="submit" class="btn">Send Inquiry</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Bodyf. All rights reserved.</p>
+        <p>Instagram • YouTube • LinkedIn</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
